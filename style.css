@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1140px;
+    margin: 0px auto;
+    padding: 72px 60px;
+    margin-left: 125px;
+}
+
+
+.form-section{
+    width: 100%;
+    background: url(banner.jpg) center center no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+.form-bg{
+    background-color: oldlace;
+    width: 45%;
+    padding: 50px;
+    border: 2px solid black;
+   display: inline-flex;
+
+}
+
+.images{
+    text-align: center;
+}
+
+.images img{
+    width: 50%;
+    border-radius: 50%;
+    border: 3px solid black;
+    transition: 0.6s;
+}
+
+.images img:hover{
+    width: 50%;
+    border-radius: 50%;
+    border: 3px solid brown;
+    transition: 0.6s;
+    transform: rotate(360deg);
+}
+
+input{
+    padding: 8px 0px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: oldlace;
+    width: 97%;
+    margin: 10px 0px;
+}
+
+.name input{
+    width: 47%;
+}
+
+.f_name{
+    margin-right: 15px;
+}
+
+.btn{
+    text-align: right;
+    margin-right: 0px;
+    margin-top: 20px;
+    
+   
+}
+
+.btn button{
+    background-color: gold;
+    color: black;
+    margin: 20px;
+    padding: 10px 30px;
+    border-radius: 50px 50px 50px 50px;
+    transition: 0.6s;
+    font-size: 15px;
+    cursor: pointer;
+ 
+}
+ 
+.btn button:hover{
+    border-radius: 10px 0px 10px 0px;
+    background-color: brown;
+    transition: 0.6s;
+    color: gold;
+   
+}
